@@ -3,7 +3,6 @@ A starter iOS project instrumented with [Scope](https://scope.undefinedlabs.com)
 
 This starter project is based on:
 - [Xcode](https://developer.apple.com/xcode/)
-- [Carthage](https://github.com/Carthage/Carthage)
 
 ## Run Scope for iOS action to run your tests
 
