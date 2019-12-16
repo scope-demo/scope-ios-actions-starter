@@ -17,4 +17,4 @@ jobs:
         uses: undefinedlabs/scope-for-ios-action@v1
         with:
           dsn: ${{ secrets.SCOPE_DSN }}
-          
+          instrumentHttpPayloads: true
