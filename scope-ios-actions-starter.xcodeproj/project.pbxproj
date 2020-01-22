@@ -119,7 +119,7 @@
 		663285A0233B555500AA91A2 = {
 			isa = PBXGroup;
 			children = (
-				663285AB233B555500AA91A2 /* scope-ios-carthage-starter */,
+				663285AB233B555500AA91A2 /* scope-ios-actions-starter */,
 				663285C2233B555600AA91A2 /* scope-ios-actions-starterTests */,
 				661722F523A0E8CD003F15F9 /* scope-ios-actions-starterUITests */,
 				6617230323A0E8F9003F15F9 /* scope-ios-actions-starterTests */,
@@ -138,7 +138,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		663285AB233B555500AA91A2 /* scope-ios-carthage-starter */ = {
+		663285AB233B555500AA91A2 /* scope-ios-actions-starter */ = {
 			isa = PBXGroup;
 			children = (
 				663285DE233B559B00AA91A2 /* Networking.swift */,
@@ -150,7 +150,6 @@
 				663285B7233B555600AA91A2 /* LaunchScreen.storyboard */,
 				663285BA233B555600AA91A2 /* Info.plist */,
 			);
-			name = "scope-ios-carthage-starter";
 			path = "scope-ios-actions-starter";
 			sourceTree = "<group>";
 		};
