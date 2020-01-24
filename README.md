@@ -1,16 +1,16 @@
 # Scope: Getting Started
-A starter iOS project instrumented with [Scope](https://scope.undefinedlabs.com) through [Scope for iOS GitHub Action](https://github.com/marketplace/actions/scope-for-ios).
+A starter iOS project instrumented with [Scope](https://scope.undefinedlabs.com) through [Scope for Swift GitHub Action](https://github.com/marketplace/actions/scope-for-swift).
 
 This starter project is based on:
 - [Xcode](https://developer.apple.com/xcode/)
 
-## Run Scope for iOS action to run your tests
+## Run Scope for Swift action to run your tests
 
 The project doesn't have any reference to Scope in its code or dependencies. The github Action configures Scope and run your tests without changes to your code/project. 
 
 It uses carthage to link with Alamofire for networking stuff.
 
-All the work is done by adding the `Scope for iOS` step in the GitHub workflow
+All the work is done by adding the `Scope for Swift` step in the GitHub workflow
 
 ```yaml
 name: Scope Testing
@@ -28,10 +28,11 @@ jobs:
         uses: actions/checkout@v1
       - name: Build dependencies
         run: carthage update --platform iOS
-      - name: Scope for iOS
-        uses: undefinedlabs/scope-for-ios-action@v1
+      - name: Scope for Swift
+        uses: undefinedlabs/scope-for-swift-action@v1
         with:
           dsn: ${{ secrets.SCOPE_DSN }}
+          platform: ios
 ```
 
 ## Running Scope on GitHub Actions
