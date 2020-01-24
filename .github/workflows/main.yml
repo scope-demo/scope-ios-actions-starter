@@ -17,3 +17,5 @@ jobs:
         uses: undefinedlabs/scope-for-swift-action@master
         with:
           dsn: ${{ secrets.SCOPE_DSN }}
+          platform: ios
+          codePath: true

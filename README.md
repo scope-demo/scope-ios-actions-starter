@@ -33,6 +33,7 @@ jobs:
         with:
           dsn: ${{ secrets.SCOPE_DSN }}
           platform: ios
+          codePath: true
 ```
 
 ## Running Scope on GitHub Actions
