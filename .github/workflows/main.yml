@@ -14,7 +14,7 @@ jobs:
       - name: Build dependencies
         run: carthage update --platform iOS
       - name: Scope for iOS
-        uses: undefinedlabs/scope-for-swift-action@master
+        uses: undefinedlabs/scope-for-swift-action@v1
         with:
           dsn: ${{ secrets.SCOPE_DSN }}
           platform: ios

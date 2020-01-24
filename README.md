@@ -34,6 +34,8 @@ jobs:
           dsn: ${{ secrets.SCOPE_DSN }}
           platform: ios
           codePath: true
+        env:
+          SCOPE_INSTRUMENTATION_HTTP_PAYLOADS: YES
 ```
 
 ## Running Scope on GitHub Actions
