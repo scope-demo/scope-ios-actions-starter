@@ -8,7 +8,7 @@ This starter project is based on:
 
 The project doesn't have any reference to Scope in its code or dependencies. The github Action configures Scope and run your tests without changes to your code/project. 
 
-It uses carthage to link with Alamofire for networking stuff.
+It uses carthage to link with Alamofire for networking and show networking automatic instrumentation.
 
 All the work is done by adding the `Scope for Swift` step in the GitHub workflow
 
